@@ -250,3 +250,5 @@ exports.updatePassword = catchAsync(async (req, res, next) => {
 
   createAndSendToken(user, 200, res);
 });
+
+
